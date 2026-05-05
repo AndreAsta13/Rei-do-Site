@@ -216,3 +216,87 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================
+# SISTEMA OPERACIONAL
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# VS CODE
+# ==========================
+.vscode/
+.history/
+
+# ==========================
+# HTML / CSS / JAVASCRIPT
+# ==========================
+node_modules/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# PYTHON
+# ==========================
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Variáveis de ambiente (SENHAS)
+.env
+.env.*
+
+# ==========================
+# JAVA
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# ==========================
+# BANCO DE DADOS LOCAL
+# ==========================
+*.sqlite
+*.db
+
+# ==========================
+# ARQUIVOS TEMPORÁRIOS
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# ARQUIVOS DE BACKUP
+# ==========================
+*.bak
+*.swp
+*~
+
+*.txt
