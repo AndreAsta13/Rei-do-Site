@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Página</title>
+    <link rel="stylesheet" href="CSS/base.css" />
+
+    
+
+  
+    
+</head>
+<body>
+
+  <nav id="Inicial">
+    <div class="nav-logo"> 
+        <button class = "btn-logo"onclick="document.querySelector('#inicio').scrollIntoView({behavior:'smooth'})"><h1>a.asta.portfolio</h1></button> 
+    </div>
+    <ul class="nav-links">
+      <li><a href="#recursos"><h2>Recursos</h2></a></li>
+      <li><a href="#sobre"><h2>Sobre</h2></a></li>
+      <li><a href="#contato"><h2>Contato</h2></a></li>
+    </ul>
+        <button class="nav-cta" onclick="window.location.href='Camadas_intermediárias/index.html'">
+            Entrar 
+        </button>
+  </nav> 
+
+  ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  <!-- ──── HERO ──── -->
+  <section class="hero" id="inicio">
+    <div class="hero-blob blob1"></div>
+    <div class="hero-blob blob2"></div>
+
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Descubra,Domine e Realize !!
+    </div>
+
+    <h1>Transformando <em>ideias de André </em> em experiências reais</h1>
+    <p class="hero-sub">Uma plataforma completa para criar, crescer e conectar. Tudo que você precisa, em um só lugar.</p>
+
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="window.location.href='Camadas_intermediárias/index.html'">Cadastrar agora</button>
+      <button class="btn-outline" onclick="document.querySelector('#recursos').scrollIntoView({behavior:'smooth'})">Ver recursos →</button>
+    </div>
+
+    <div class="hero-scroll">
+      <span>rolar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ──── RECURSOS ──── -->
+  <section id="recursos">
+  
+  <div class="section-inner">
+   <video autoplay muted loop playsinline class="video-bg">
+    <source src="Image/Video/Robo.mp4" type="video/mp4">
+  </video>
+    <div class="features-header">
+        
+      
+      <p class="section-label">Recursos</p>
+      <h2 class="section-title">Soluções estruturadas: Explore como transformo conceitos técnicos em resultados reais</h2>
+      <p class="section-sub">Ferramentas inteligentes para desafios reais. Explore meu trabalho e vamos conversar sobre o futuro da sua empresa.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🗣</div>
+        <h3>Sistema de Desenvolvimento do Som</h3>
+        <p>Exploração sobre o sistema de desenvolvimento do som e suas aplicações práticas.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧠</div>
+        <h3>Mapa Mental</h3>
+        <p>Criptografia de ponta a ponta, autenticação em dois fatores e conformidade com LGPD.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+  <!-- ──── SOBRE ──── -->
+  <section id="sobre">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-placeholder">
+            <img src="Image/Video/ImageAndré.jpeg"  class="imageandre" alt="Imagem de André"  />
+          </div>
+        </div>
+        <div>
+          <p class="section-label">Sobre nós</p>
+          <h2 class="section-title">Quem sou eu e onde estamos</h2>
+          <p style="color:var(--muted); font-size:.93rem; margin-top:.8rem;">
+            Sou uma pessoa apaixonada por tecnologia e desenvolvimento, com a missão de facilitar a vida de empreendedores, deficientes e desenvolvedores de todo o Brasil.
+          </p>
+          <ul class="about-list">
+            <li><span class="check">✓</span>Presente na área de tecnologia desde 2022</li>
+            <li><span class="check">✓</span>Estudante de Ciência da Computação(Unip)</li>
+            <li><span class="check">✓</span>Moro em São José dos Campos</li>
+            <li><span class="check">✓</span>Capacitado em desenvolver projetos e códigos para as empresas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ──── RODAPÉ ──── -->
+  <footer id="contato">
+    <div class="footer-main">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="brand-name"><button class = "btn-logo"onclick="document.querySelector('#inicio').scrollIntoView({behavior:'smooth'})"><h3>a.asta.portfolio</h3></button></div>
+        <p>Transformando ideias em produtos digitais que fazem diferença no dia a dia das pessoas.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/andre.asta1/" class="social-btn" title="Instagram"></a>
+          <a href="https://www.linkedin.com/in/andre-asta-oliveira/" class="social-btn" title="LinkedIn"></a>
+          <a href="https://github.com/AndreAsta13" class="social-btn" title="YouTube"></a>
+        </div>
+      </div>
+
+      <!-- Links Produto -->
+      <div class="footer-col">
+        
+      </div>
+
+      <!-- Links Empresa -->
+      <div class="footer-col">
+      </div>
+
+      <!-- Formulário de Registro -->
+      <div class="register-form">
+       
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 a.asta.portfolio. Todos os direitos reservados.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  
+        <script src="base.js"></script>
+    </body>
+</html>
